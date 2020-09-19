@@ -1,7 +1,8 @@
 {
-    "name": "castilhojr/ctrlHost",
+    "name": "castilhojr/ctrlhost",
     "description": "Base de desenvolvimento CtrlHost",
     "license": "MIT",
+
     "authors": [
         {
             "name": "Paulo Castilho Jr",
@@ -9,11 +10,18 @@
             "homepage": "http://ctrlhost.com.br"
         }
     ],
-    "require": {
-        "php": ">=7.2.8",
+
+    "config": {
+        "vendor-dir": "Vendor"
     },
+
     "autoload": {
-        "psr-4": { "Source/" },
+        "psr-4": {"Souce\\" : "Source"},
         "files": ["Source/Config.php"]
     },
+
+    "require": {
+        "php": ">=7.2.8"
+    }
+
 }
