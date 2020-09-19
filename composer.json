@@ -1,0 +1,20 @@
+  
+{
+    "name": "castilhojr/ctrlHost",
+    "description": "Base de desenvolvimento CtrlHost",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Castilho Jr",
+            "email": "pmc.junior@gmail.com",
+            "homepage": "http://ctrlhost.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.8",
+    },
+    "autoload": {
+        "psr-4": { "Source/" },
+        "files": ["Source/Config.php"]
+    },
+}
